@@ -6,7 +6,7 @@
     "build": "gulp build",
     "test": "mocha",
     "build-test": "gulp build && mocha",
-    "serve": "http-server ./build"
+    "serve": "node index.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -14,7 +14,6 @@
     "gulp-browserify": "^0.5.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-style-inject": "^0.0.3",
-    "http-server": "^0.9.0",
     "lambda-tester": "^2.6.0",
     "mocha": "^3.2.0"
   },

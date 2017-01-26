@@ -5,7 +5,7 @@ const path = require('path');
 const handlebars = require('handlebars');
 
 exports.isPickleHere = (event, context, callback) => {
-    const file = path.join(__dirname, 'isPickleHere.html');
+    const file = path.join(__dirname, 'index.html');
     const template = handlebars.compile(fs.readFileSync(file).toString());
 
     const templateVars = {
