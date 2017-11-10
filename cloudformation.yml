@@ -1,0 +1,12 @@
+#Lambda
+- three lambdas, python, that rename files in s3
+- triggered by api gateway, don't care what route, just need to mark them as outputs
+
+# S3
+- one bucket, ispicklehere.com
+- public website
+- 4 files, index.html, yes.html, no.html, maybe.html
+
+# Route53
+- Alias A record to the website bucket
+- serves index.html
